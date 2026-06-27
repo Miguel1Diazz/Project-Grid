@@ -190,3 +190,20 @@
         background-color: rgba(105, 90, 205, 0.795);
         grid-area:2 / 1 / 4 / 3 ;
 }
+.item9{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(4,80px);
+    grid-template-rows: repeat(4,80px);
+    row-gap: 10px;
+    column-gap: 10px; 
+}
+.kmoo{
+    background-color: pink;
+    border-radius: 10px;
+}
+.kmoo1{
+     grid-area: 2 / 3 / 4 / 4;
+     background-color: pink;
+     border-radius: 10px;
+}
