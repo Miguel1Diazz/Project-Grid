@@ -36,3 +36,99 @@
     row-gap: 10px;
     column-gap: 10px;
 }
+.itey1{
+    background-color: purple;
+}
+.itey{
+    background-color: rgba(128, 0, 128, 0.808);
+}
+.itey2{
+    grid-area:  2 / 4 / 4 / 4;
+    background-color: rgba(128, 0, 128, 0.808);
+}
+.itey22{
+    grid-area: 4 / 1 / 4 / 3;
+        background-color: purple;
+
+}
+.item3{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(4,80px);
+    grid-template-rows: repeat(4,80px);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.itte{
+    background-color: rgb(95, 126, 10);
+}
+.itte1{
+    background-color: rgb(47, 104, 8);
+}
+.itte3{
+    grid-area: 1 / 2 / 1 / 4;
+    background-color:rgb(95, 126, 10) ;
+}
+.itte2{
+    grid-area: 1 / 4 / 3 / 4 ;
+    background-color:rgb(47, 104, 8) ;
+}
+.itte34{
+    grid-area: 4 / 1 / 4 / 3;
+    background-color: rgb(95, 126, 10);
+}
+.item4{
+     display: grid;
+    place-content: center;
+    grid-template-columns: repeat(4,80px);
+    grid-template-rows: repeat(4,80px);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.gogo{
+    background-color: rgb(191, 240, 16);
+    border-radius: 40%;
+}
+.gogo1{
+    background-color: rgb(211, 214, 16);
+    border-radius: 40%;
+}
+.gogo11{
+    grid-area:1 / 1 / 3 / 1;
+    background-color: greenyellow;
+        border-radius: 40px;
+
+}
+.gogo11a{
+    grid-area:1 / 2 / 3 / 2;
+    background-color: greenyellow;
+        border-radius: 40px;
+}
+.gogo22{
+    grid-area: 3 / 3 / 5 / 5;
+    border-radius: 45%;
+    background-color: rgb(211, 214, 16);
+}
+.item5{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(4,80px);
+    grid-template-rows: repeat(4,80px);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.ijiji{
+    background-color: black;
+}
+.ijiji1{
+    grid-area: 1 / 1 / 3 / 3;
+    background-color: black;
+}
+.ijiji2{
+    background-color: black;
+    grid-area: 1 / 3 / 1 / 5;
+}
+.ijiji4{
+    background-color: black;
+    grid-area: 3 / 2 /  5 / 4;
+}
